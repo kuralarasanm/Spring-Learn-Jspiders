@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+	<!-- setter injection by nested bean -->
+	<bean id="yourphonepe" class="org.jsp.springdi.dto.Phonepe">
+		<property name="bank">
+			<bean class="org.jsp.springdi.dto.Bank">
+				<property name="balance" value="15000" />
+			</bean>
+		</property>
+
+	</bean>
+	<!-- setter injection by ref attribute -->
+	<bean id="myphonepe" class="org.jsp.springdi.dto.Phonepe">
+		<property name="bank" ref="icici" />
+	</bean>
+	<bean id="icici" class="org.jsp.springdi.dto.Bank">
+		<property name="balance" value="45000" />
+	</bean>
+</beans>

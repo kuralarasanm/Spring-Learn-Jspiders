@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+	<bean id="myjdbc" class="org.jsp.springdemo.JdbcProperties">
+           <constructor-arg index="0" type="java.lang.String" value="com.mysql.cj.jdbc.driver"/>
+            <constructor-arg  name="url" value="jdbc:mysql://localhost"/>
+             <constructor-arg  name="user" value="root"/>
+              <constructor-arg  name="password" value="admin"/>
+	</bean>
+	<bean id="yourjdbc" class="org.jsp.springdemo.JdbcProperties">
+		<property name="driver" value="Java driver" />
+		<property name="url"  value="jdbc:mysql://localhost"/>
+		<property name="user" value="scott"/>
+		<property  name="password" value="tiger"/>
+	</bean>
+	
+</beans>

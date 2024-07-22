@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.jsp.merchantAndproduct.Config&apos; to &apos;MerchantAndProductConfig&apos;&#x0D;&#x0A;- Original project: &apos;Merchant_and_product-one-to-many_relationship&apos;&#x0D;&#x0A;- Original element: &apos;org.jsp.merchantAndproduct.Config&apos;&#x0D;&#x0A;- Renamed element: &apos;org.jsp.merchantAndproduct.MerchantAndProductConfig&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Config&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;org.jsp.merchantAndproduct{Config.java[Config" matchStrategy="1" name="MerchantAndProductConfig" qualified="false" references="true" similarDeclarations="false" stamp="1706765265616" textual="false" version="1.0"/>
+</session>

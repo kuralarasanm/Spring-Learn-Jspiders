@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8" isELIgnored="false"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>home page</title>
+<style type="">
+h2 {
+	background-color: darkgreen;
+	color: white;
+}
+</style>
+</head>
+<body>
+	<h2>welcome to home page of spring-mvc-demo Mr.${user}</h2>
+	<h3>
+		<a href="sum.jsp">click here to find the sum of 2 numbers</a>
+	</h3>
+	<h3>
+		<a href="subtract.jsp">click here to find the subtract of 2
+			numbers</a>
+	</h3>
+	<h3>
+		<a href="multiple.jsp">click here to find the multiple of 2
+			numbers</a>
+	</h3>
+	<h3>
+		<a href="divide.jsp">click here to find the divide of 2 numbers</a>
+	</h3>
+</body>
+</html>

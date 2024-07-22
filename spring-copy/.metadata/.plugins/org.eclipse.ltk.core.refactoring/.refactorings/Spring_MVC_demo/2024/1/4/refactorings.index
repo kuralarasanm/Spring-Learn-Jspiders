@@ -1,0 +1,13 @@
+1706083812013	Rename resource 'MVCdemo_servlet.xml'
+1706101161383	Rename resource 'subtraction.jsp'
+1706170415145	Move 'index.jsp' to 'WEB-INF'
+1706170440670	Move 'sum.jsp' to 'WEB-INF'
+1706170614308	Move 'index.jsp' to 'webapp'
+1706170722842	Move 'index.jsp' to 'views'
+1706175403885	Move 'sum.jsp' to 'views'
+1706175407581	Move 'divide.jsp' to 'views'
+1706175411720	Move 'multiple.jsp' to 'views'
+1706175415083	Move 'print.jsp' to 'views'
+1706175421230	Move 'subtract.jsp' to 'views'
+1706175426614	Move 'home.jsp' to 'views'
+1706262054305	Delete element
